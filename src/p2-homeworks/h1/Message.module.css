@@ -41,17 +41,6 @@
   box-shadow: 25px  0 0 0 black;
 }
 
-/* .message__content:before{
-   position:absolute;
-   content:"";
-   z-index: -1;
-   left: -13px;
-   bottom: -1px;
-   border-bottom: 30px solid black; 
-	border-left: 30px solid transparent;
-   
-} */
-
 .name{
    color: #8d07f5;
    padding-left: 10px;
