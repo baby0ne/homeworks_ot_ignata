@@ -22,7 +22,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({ users, addUse
       } else {
          setName(e.currentTarget.value);
          setError("");
-      } 
+      }
    }
    const addUser = () => {
       addUserCallback(name);
