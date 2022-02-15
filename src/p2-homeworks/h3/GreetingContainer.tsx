@@ -18,13 +18,12 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({ users, addUse
 
    const setNameCallback = (e: ChangeEvent<HTMLInputElement>) => { // need to fix any
       if (name.length === 0 && e.currentTarget.value === " ") {
-         setError("Error! Enter name!");
+         setError("Error! First character cannot be a space!");
       } else {
          setName(e.currentTarget.value);
          setError("");
-      }
+      } 
    }
-
    const addUser = () => {
       addUserCallback(name);
       alert(`Hello ${name}!`);
