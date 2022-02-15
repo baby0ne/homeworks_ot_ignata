@@ -1,7 +1,16 @@
 .someClass {
-
+   padding: 10px;
 }
 
 .error {
     border: 1px solid red;
+}
+
+.correct{
+
+}
+
+.errorMessage{
+   display: block;
+   color: red;
 }
