@@ -1,4 +1,5 @@
 import React from 'react'
+import SuperButton from '../h4/common/c2-SuperButton/SuperButton';
 import { AffairType } from './HW2';
 
 type AffairPropsType = {
@@ -9,14 +10,17 @@ type AffairPropsType = {
 
 function Affair(props: AffairPropsType) {
    const deleteCallback = (_id: number) => {
-      debugger
       props.deleteAffairCallback(_id);
    }// need to fix
 
    return (
       <div>
          {props.affair.name} {props.affair.priority}
-         <button onClick={() => deleteCallback(props.affair._id)}>X</button>
+         <SuperButton
+            onClick={() => deleteCallback(props.affair._id)}>
+            X
+         </SuperButton>
+         {/* <button onClick={() => deleteCallback(props.affair._id)}>X</button> */}
       </div>
    )
 }
