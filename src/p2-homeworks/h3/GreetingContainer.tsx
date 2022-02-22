@@ -26,7 +26,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({ users, addUse
    }
    const addUser = () => {
       addUserCallback(name);
-      alert(`Hello ${name}!`);
+      alert(`Hello ${name.trim()}!`);
       setName("");
    }
 
