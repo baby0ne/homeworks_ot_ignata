@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/homeworks_ot_ignata/static/css/main.ef81d07e.css",
+    "main.js": "/homeworks_ot_ignata/static/js/main.8fadea83.js",
+    "index.html": "/homeworks_ot_ignata/index.html",
+    "main.ef81d07e.css.map": "/homeworks_ot_ignata/static/css/main.ef81d07e.css.map",
+    "main.8fadea83.js.map": "/homeworks_ot_ignata/static/js/main.8fadea83.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef81d07e.css",
+    "static/js/main.8fadea83.js"
+  ]
+}
