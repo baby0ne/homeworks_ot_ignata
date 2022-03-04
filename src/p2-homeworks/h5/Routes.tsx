@@ -21,7 +21,7 @@ function Routes() {
             <Route path={PATH.JUNIOR} element={<Junior />} />
             <Route path={PATH.JUNIOR_PLUS} element={<Junior_plus />} />
 
-            <Route element={<Error404 />} />
+            <Route path='*' element={<Error404 />} />
          </Switch>
       </div>
    )
