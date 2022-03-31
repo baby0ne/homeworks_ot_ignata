@@ -1,0 +1,38 @@
+.optionInput {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: relative;
+  top: 4px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  transition: all 0.15s ease-out 0s;
+  background: #cbd1d8;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 0.5rem;
+  outline: none;
+  position: relative;
+  z-index: 1;
+  border-radius: 50%;
+}
+.optionInput:hover {
+  background: #9faab7;
+}
+
+.optionInput:checked {
+  background: #40e0d0;
+}
+
+.option{
+   margin-right: 15px;
+   font-size: 20px;
+   font-family: sans-serif;
+}
