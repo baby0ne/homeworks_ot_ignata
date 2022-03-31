@@ -1,0 +1,7 @@
+.editableSpan{
+   color: blue;
+}
+
+.editableSpan::before {
+   content: "➩";  
+}
